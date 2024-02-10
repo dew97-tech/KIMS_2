@@ -84,7 +84,7 @@
     </div>
     <!-- End Col -->
     <div class="col-lg-12">
-        <div class="card-style mb-30">
+        <div class="card-style">
             <div class="title d-flex flex-wrap justify-content-between align-items-center">
                 <div class="left">
                     <h6 class="text-medium mb-30">Top Selling Products</h6>

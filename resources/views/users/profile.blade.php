@@ -8,14 +8,14 @@
                 </div>
                 <div>
                     <h6 class="fw-800">{{ Auth::user()->name }}</h6>
-                    <p class="text-primary">{{ Auth::user()->email }}</p>
+                    <p class="text-secondary fw-medium">{{ Auth::user()->email }}</p>
                 </div>
             </div>
         </div>
     </button>
     <ul class="dropdown-menu p-1" aria-labelledby="profile">
         <li>
-            <a class="dropdown-item text-start text-dark" href="{{ route("profile.show") }}">
+            <a class="dropdown-item text-start text-dark fw-medium" href="{{ route("profile.show") }}">
                 <i class="lni lni-user"></i> {{ __("Change Password") }}
             </a>
         </li>
@@ -23,7 +23,7 @@
         <li>
             <form method="POST" action="{{ route("logout") }}">
                 @csrf
-                <a class="dropdown-item text-start text-dark" href="{{ route("logout") }}" onclick="event.preventDefault(); this.closest('form').submit();">
+                <a class="dropdown-item text-start text-dark fw-medium" href="{{ route("logout") }}" onclick="event.preventDefault(); this.closest('form').submit();">
                     <i class="lni lni-exit"></i> {{ __("Sign Out") }}
                 </a>
             </form>

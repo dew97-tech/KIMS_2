@@ -107,10 +107,6 @@
         <!-- ========== footer end =========== -->
     </main>
     <!-- ======== main-wrapper end =========== -->
-
-    <!-- ========= All Javascript files linkup ======== -->
-    @vite("resources/js/app.js")
-    <script src="{{ asset("js/main.js") }}"></script>
     <!-- ========= All Javascript files linkup ======== -->
     <script src="{{ asset("js/main.js") }}"></script>
     <script src="{{ asset("assets/js/Chart.min.js") }}"></script>
